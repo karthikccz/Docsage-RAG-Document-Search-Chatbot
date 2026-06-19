@@ -1,0 +1,24 @@
+fastapi==0.137.2
+uvicorn[standard]==0.49.0
+python-multipart==0.0.32
+pydantic-settings==2.14.1
+pypdf==6.13.3
+python-dotenv==1.0.1
+
+# LangChain, split into its current modular packages (no API keys involved anywhere below)
+langchain-core==1.4.8
+langchain-community==0.4.2
+langchain-text-splitters==1.1.2
+
+# Local, free vector database
+langchain-chroma==1.1.0
+chromadb==1.5.9
+
+# Local, free embeddings -- downloads ~90MB of model weights from Hugging Face
+# the first time the server starts, then reuses the local cache.
+langchain-huggingface==1.2.2
+sentence-transformers==5.6.0
+
+# Local, free chat model via Ollama. Requires Ollama installed separately
+# (https://ollama.com) and a model pulled once: `ollama pull llama3.2`.
+langchain-ollama==1.1.0

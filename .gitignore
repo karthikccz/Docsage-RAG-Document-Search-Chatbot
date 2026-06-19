@@ -1,0 +1,23 @@
+# Environment files with real (non-placeholder) values
+.env
+backend/.env
+frontend/.env
+
+# Uploaded documents and the vector index built from them
+backend/storage/uploads/*
+backend/storage/vector_store/*
+!backend/storage/uploads/.gitkeep
+!backend/storage/vector_store/.gitkeep
+
+# Dependencies
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+frontend/node_modules/
+
+# Build output
+frontend/dist/
+
+# OS/editor noise
+.DS_Store
+*.pyc
