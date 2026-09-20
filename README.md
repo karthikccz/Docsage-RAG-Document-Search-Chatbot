@@ -319,4 +319,5 @@ Run `ollama list` — if `llama3.2` isn't there, run `ollama pull llama3.2`.
 → Check `VITE_API_URL` in `frontend/.env` matches where uvicorn is running.
 
 **Docker: "port already in use"**
-→ Something else is using 8000 or 5173. Run `docker compose down` then `docker compose up` again.
+→ Something else is using 8000 or 5173. Run `docker compose down` then `docker compose up` again.#   D o c s a g e - R A G - D o c u m e n t - S e a r c h - C h a t b o t  
+ 
